@@ -1,0 +1,7 @@
+<div style="margin-top: 20px;">
+  <p *ngIf="status"> {{P1}}</p>
+  <p *ngIf="!status"> {{P2}}</p>
+  <div>
+    <button type="button" (click)= "status = !status">Click here to switch paragraph above</button>
+  </div>
+</div>
